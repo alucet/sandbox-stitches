@@ -1,0 +1,96 @@
+.clear { clear: both }
+
+body {
+	background: #FFFFFF url(../images/bkg.png) repeat fixed;
+	text-align: center;
+	color: #E8E8E8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+	text-align: left;
+	padding: 5px 0;
+	font-size: 0.8em;
+}
+a {
+	color: #c24f4f;
+	font-weight: bold;
+}
+
+.stitches {
+	clear: both;
+	height: 100%;
+	border: 9px solid transparent;
+    -webkit-border-image: url('../images/bg_stitch.png') 9 repeat;
+    -moz-border-image: url('../images/bg_stitch.png') 9 repeat;
+    -o-border-image: url('../images/bg_stitch.png') 9 repeat;
+    border-image: url('../images/bg_stitch.png') 9 repeat;
+}
+
+.panel {
+	background: #323436 url(../images/bkg-grey.png) repeat top left;
+    /*background: #353535;
+    background-image: url('../images/bg_noise.png');*/
+	-webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    border-radius: 6px;
+	padding: 6px;
+	-webkit-box-shadow: 0 -1px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0 -1px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4);
+    -o-box-shadow: 0 -1px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 -1px 0 #5b5b5b inset, 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+header {
+	margin: 60px auto 45px;
+	width: 423px;
+}
+
+h1 { clear: both; padding: 15px 0 0 0; }
+
+.panel h2 {
+	clear: both;
+	color: #595c5e;
+	font-weight: bold;
+	font-size: 1.4em;
+	letter-spacing: 0.02em;
+	padding: 10px 0 19px 0;
+}
+
+
+
+#container {
+	margin: 0 auto;
+	width: 1018px; height: 415px;
+}
+
+#accordion ol li .accordion-container {
+    background: none;
+}
+#accordion ol li .accordion-container div {
+    height: 95%;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    border: 9px solid transparent;
+    background-image: url('../images/bg_noise.png');
+    -webkit-border-image: url('../images/bg_stitch.png') 9 repeat;
+    -moz-border-image: url('../images/bg_stitch.png') 9 repeat;
+    -o-border-image: url('../images/bg_stitch.png') 9 repeat;
+    border-image: url('../images/bg_stitch.png') 9 repeat;
+}
+
+
+
+footer {
+	margin: 60px auto;
+	width: 423px;
+}
+
+footer p { text-align: left; }

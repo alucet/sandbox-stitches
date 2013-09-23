@@ -1,0 +1,95 @@
+#accordion {}
+#accordion h3 {
+	display: block;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0px 1px 10px #252525;
+	-webkit-box-shadow: 0px 1px 10px #252525;
+	box-shadow: 0px 1px 10px #252525;
+	/*filter:progid:DXImageTransform.Microsoft.Shadow(color='#252525', Strength=5); 
+	zoom: 1;*/
+	padding: 6px;
+	text-shadow: #666666 0 -1px 0;
+	font-size: 1.5em; }
+#accordion h3 .number {}
+#accordion h3 .title { text-transform: lowercase; }
+#accordion h3 .title a { color: #E8E8E8; text-decoration: none; }
+#accordion div.text {}
+#accordion h3.features {
+	background: #b03e3e url(../images/bkg-red.png) repeat 0 0; }
+#accordion div.features {}
+#accordion h3.design {
+	background: #c38a43 url(../images/bkg-ocre.png) repeat 0 0; }
+#accordion div.design {}
+#accordion h3.appstore {
+	background: #89b24c url(../images/bkg-green.png) repeat 0 0; }
+#accordion div.appstore {}
+#accordion h3.gallery {
+	background: #56abb7 url(../images/bkg-blue.png) repeat 0 0; }
+#accordion div.gallery {}
+#accordion h3.techspec {
+	background: #b44f8e url(../images/bkg-purple.png) repeat 0 0;}
+#accordion div.techspec {}
+
+#accordion.js h3 {
+	width: 2em;
+	min-height: 390px;
+	margin-right: 4px;
+	max-width: 80px;
+	float: left; }
+#accordion.js h3 .stitches { min-height: 380px; position: relative; }
+#accordion.js h3 .number {
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 5px;
+	clear: both;
+	width: 85%;
+	text-align: center; }
+#accordion.js h3 .title {
+	-moz-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+	filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.154, M12=-0.988, M21=0.988, M22=0.154);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.154, M12=-0.988, M21=0.988, M22=0.154)";
+	zoom: 1;
+	text-align: right;
+	position: absolute;
+	width: 340px;
+	top: 45%; left: -150px;
+}
+#accordion.js div.text {
+	float: left;
+	background-color: #f1f1f1;
+	background-image: none;
+	min-height: 390px;
+	margin-right: 4px;
+	width: auto;
+	clear: none;
+}
+#accordion.js h3.features {}
+#accordion.js div.features {}
+#accordion.js h3.design {}
+#accordion.js div.design {}
+#accordion.js h3.appstore {}
+#accordion.js div.appstore {}
+#accordion.js h3.gallery {}
+#accordion.js div.gallery {}
+#accordion.js h3.techspec {}
+#accordion.js div.techspec {}
+
+#accordion.no-js h3 { margin: 0.6em auto; width: 15em; }
+#accordion.no-js h3 .number {}
+#accordion.no-js h3 .title {}
+#accordion.no-js div.text { margin: 10px 10%; }
+#accordion.no-js h3.features {}
+#accordion.no-js div.features {}
+#accordion.no-js h3.design {}
+#accordion.no-js div.design {}
+#accordion.no-js h3.appstore {}
+#accordion.no-js div.appstore {}
+#accordion.no-js h3.gallery {}
+#accordion.no-js div.gallery {}
+#accordion.no-js h3.techspec {}
+#accordion.no-js div.techspec {}
